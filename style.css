@@ -36,7 +36,7 @@ li {
   font-size: 16px;
   font-weight: 300;
   margin: 16px 15px;
-  text-transform: uppercase;
+ 
 }
 
 #logo {
@@ -120,6 +120,7 @@ a {
   margin: 0px 2% 80px 2%;
   text-align: center;
   width: 45%;
+  clear: both
 }
 
 .product img {
