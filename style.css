@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF;
+  background-color: #000;
   margin: 0;
   padding: 0;
 }
@@ -35,13 +35,13 @@ li {
   font-family: 'Abel', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  margin: 16px 20px;
+  margin: 16px 15px;
   text-transform: uppercase;
 }
 
 #logo {
-  color: #FCA311;
-  font-family: 'Amatic SC', cursive;
+  color: #102870;
+  font-family: 'Lobster', cursive;
   font-size: 32px;
   padding: 0px 50px;
 }
