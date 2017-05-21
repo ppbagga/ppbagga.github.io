@@ -57,7 +57,7 @@ li {
 
 h1 {
   color: #FFF;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 72px;
   line-height: 60px;
   padding: 20px 10px;
@@ -65,8 +65,8 @@ h1 {
 }
 
 h2 {
-  color: #000;
-  font-family: 'Raleway', sans-serif;
+  color: #102870;
+  font-family: 'Times New Roman', serif;
   font-size: 42px;
   font-weight: 300;
   text-align: center;
