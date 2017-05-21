@@ -1,3 +1,36 @@
+.N1 {
+  background: url("http://www.planwallpaper.com/static/images/HD-Wallpapers1_FOSmVKg.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
+.N2 {
+  background: url("http://www.planwallpaper.com/static/images/1926935_55L0dcb.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
+  
+.N3 {
+  background: url("http://mosaicon.hu/wallpapers/macskak/fullhd-hatterkep-cica-62610938.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  position: relative;
+  width: 100%;
+}
+.N4 {
+  background: url("http://www.magic4walls.com/wp-content/uploads/2014/04/lion-animals-mane-Africa-wild-muzzle-photo-hd-wallpaper.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
 body {
   background-color: #000;
   margin: 0;
@@ -76,9 +109,10 @@ h2 {
 h3 {
   color: #FFF;
   font-family: 'Lato', sans-serif;
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 15px;
   
 }
 
@@ -138,36 +172,4 @@ a {
   font-size: 20px;
   letter-spacing: 15px;
 }
-.N1 {
-  background: url("https://static.pexels.com/photos/33045/lion-wild-africa-african.jpg") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 700px;
-  position: relative;
-  width: 100%;
-}
-.N2 {
-  background: url("https://us.123rf.com/450wm/nejron/nejron1302/nejron130200103/17928135-roaring-lion-against-stormy-sky.jpg?ver=6") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 700px;
-  position: relative;
-  width: 100%;
-}
-  
-.N3 {
-  background: url("http://mosaicon.hu/wallpapers/macskak/fullhd-hatterkep-cica-62610938.jpg") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 600px;
-  position: relative;
-  width: 100%;
-}
-.N4 {
-  background: url("http://www.magic4walls.com/wp-content/uploads/2014/04/lion-animals-mane-Africa-wild-muzzle-photo-hd-wallpaper.jpg") no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 700px;
-  position: relative;
-  width: 100%;
-}
+
