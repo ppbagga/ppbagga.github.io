@@ -74,9 +74,10 @@ h2 {
 h3 {
   color: #FFF;
   font-family: 'Lato', sans-serif;
-  font-size: 28px;
+  font-size: 45px;
   text-align: center;
   text-transform: uppercase;
+  
 }
 
 h4 {
@@ -89,7 +90,7 @@ h4 {
 p {
   color: #FFF;
   font-family: 'Lato', thin;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -104,16 +105,15 @@ a {
   font-family: 'Lato', sans-serif;
   font-size: 26px;
   padding:5px 20px;
+  margin-top: 10px;
 }
-
-
 
 .product {
   display: block;
   text-align: center; 
-  border: 2px solid red;
-  
+  padding-top: 200px;
   box-sizing: border-box;
+  font-size: 45px;
   
 }
 
@@ -124,7 +124,8 @@ a {
 }
 
 .blue {
-  color: #14213D;
+  color: #FFF;
+  margin: 50px;
 }
 #base {
   color: #FFF;
@@ -153,7 +154,7 @@ a {
   background: url("http://mosaicon.hu/wallpapers/macskak/fullhd-hatterkep-cica-62610938.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 700px;
+  height: 600px;
   position: relative;
   width: 100%;
 }
