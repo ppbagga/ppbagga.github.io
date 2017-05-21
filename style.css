@@ -73,8 +73,8 @@ h2 {
 }
 
 h3 {
-  color: #14213D;
-  font-family: 'Archivo Black', sans-serif;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
   font-size: 28px;
   text-align: center;
   text-transform: uppercase;
@@ -82,14 +82,14 @@ h3 {
 
 h4 {
   color: #FCA311;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 24px;
   margin: 0px 0px 50px 0px;
 }
 
 p {
-  color: #000;
-  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  font-family: 'Lato', thin;
   font-size: 16px;
   font-weight: 300;
 }
@@ -101,7 +101,7 @@ a {
 .btn {
   background-image: -webkit-linear-gradient(#FFD123, #BC1324);
   color: #FFF;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 26px;
   padding: 14px;
 }
