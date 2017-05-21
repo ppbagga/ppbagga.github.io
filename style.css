@@ -36,7 +36,7 @@ li {
   font-size: 16px;
   font-weight: 300;
   margin: 16px 15px;
- 
+  
 }
 
 #logo {
@@ -65,8 +65,8 @@ h1 {
 }
 
 h2 {
-  color: #102870;
-  font-family: 'Times New Roman', serif;
+  color:#07c5ff;
+  font-family: 'Quintessential', cursive;
   font-size: 42px;
   font-weight: 300;
   text-align: center;
@@ -108,19 +108,20 @@ a {
 
 .products {
   background: #EEEFF1;
-  box-sizing: border-box;
-  width: 90%;
+  
+  width: 100%;
   margin: 20px auto;
   padding: 20px 0px;
   text-align: center;
 }
 
 .product {
-  display: inline-block;
+  display: block;
   margin: 0px 2% 80px 2%;
   text-align: center;
-  width: 45%;
-  clear: both
+  width: 100%;
+ 
+  
 }
 
 .product img {
@@ -128,5 +129,12 @@ a {
 }
 
 .blue {
-  color: #14213D !important;
+  color: #14213D;
 }
+#base {
+  color: #FFF;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Quintessential', cursive;
+}
+
