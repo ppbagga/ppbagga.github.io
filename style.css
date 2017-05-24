@@ -184,8 +184,9 @@ a {
   padding-bottom: 175px;
   box-sizing: border-box;
   font-size: 45px;
-  width: 700px;
-  margin-left: 25%;
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto
   opacity: 1;
   z-index: 1000;
 }
