@@ -141,6 +141,7 @@ h3 {
   text-transform: uppercase;
   
 }
+
 .header{
   letter-spacing: 5px;
   font-weight: 700;
@@ -158,6 +159,7 @@ p {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 100;
+  line-height: 10px;
 }
 
 a {
