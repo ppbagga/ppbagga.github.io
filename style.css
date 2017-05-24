@@ -13,6 +13,7 @@
 .intro{
    text-align: left;
 }
+
 body {
   background-color: #000;
   margin: 0;
@@ -98,6 +99,9 @@ h3 {
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  
+}
+.header{
   letter-spacing: 5px;
   font-weight: 700;
 }
