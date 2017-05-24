@@ -1,13 +1,53 @@
+.back9:after {
+  background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
+}
+.back8:after {
+  background-image:  url(http://cdn.techgreatest.com/wp-content/uploads/2016/12/maxresdefault-1.jpg);
+}
+.back7:after {
+  background-image: url(http://images.iphone7pluswallpaper.com/Gallery/71_Apple/iphone-7-plus-wallpaper-apple-black-white-11.jpg);
+}
+.back6:after {
+  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/006.jpg?w=2924);
+}
+.back5:after {
+  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/004.jpg?w=2924);
+}
+.back4:after {
+  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/aa.jpg?w=2924);
+}
+.back3:after {
+  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/google-headquarters.jpg?w=2924);
+}
+.back2:after {
+  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/003.jpg?w=2924);
+}
+.back1:after {
+  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/fff.jpeg?w=2924);
+}
+
 .post {
-  background-size: cover;
-  background-attachment: fixed;
   height: 100%;
-  position: relative;
   width: 100%;
   z-index: 1;
+}
+
+.background {
+  position: relative;
+}
+
+.background:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background-size: cover;
+  background-attachment: fixed;
   background-position: center;
-  opacity: 0.5;
-  
+  opacity: 0.3;
+  z-index: -1;
 }
 
 .intro{
