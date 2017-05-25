@@ -41,11 +41,55 @@
     width: 700px;
     margin-left:auto;
     margin-right: auto;
-    
     }
+    .post {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.background {
+  position: relative;
+}
+
+.background:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+    .back9:after {
+  background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
+}
+    h3 {
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.header{
+  font-size: 45px;
+  font-weight: 700;
+}
   </style>
 </head>
 <body>
+  <div class="post background back9">
+      <div class="product">
+        <h3 class="header">CHARGING ON WHEELS</h3>
+      </div>
+  </div>
+  
 <div>
 <p>Where on one side of the world, people are facing problems like poverty and food shortages, the first world countries have their own set of problems. One of them, is the continuously draining battery of the device, that our hands cannot resist. Honestly, people are now obsessed with their phones and we always want our devices to be fully charged. There should be no break to our never ending conversations or facebook posts or maybe Netflix.
 </p>
