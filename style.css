@@ -67,7 +67,7 @@ body {
   
   background-size: cover;
   background-attachment: fixed;
-  height: 800px;
+  height: 100%;
   position: relative;
   width: 100%;
   
@@ -185,7 +185,7 @@ a {
   display: block;
   text-align: center; 
   padding-top: 175px;
-  padding-bottom: 175px;
+  padding-bottom: 200px;
   box-sizing: border-box;
   font-size: 45px;
   width: 660px;
