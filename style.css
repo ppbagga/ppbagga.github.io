@@ -30,6 +30,9 @@
   margin-right: 0;
   padding-top: 100px;
 }
+.mediaicon li {
+    clear: both!important;
+}
 
 .fa {
   padding: 10px;
