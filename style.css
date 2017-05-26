@@ -103,12 +103,10 @@ body {
   height: 800px;
   position: relative;
   width: 100%;
-  
-
 }
 
 .navigation {
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.5);
   overflow-y: auto;
   position: fixed;
   left: 0;
@@ -116,7 +114,6 @@ body {
   text-align: center;
   width: 100%;
   z-index: 10000;
-
 }
 
 ul {
@@ -213,6 +210,7 @@ a {
   margin-top: 20px;
   font-weight: 700;
 }
+
 .btn:hover {
  background-color: #FFF;
  color: #000;
