@@ -27,11 +27,13 @@
 }
 .mediaicon {
   padding: 0;
-  margin-right: 0;
   padding-top: 100px;
+  margin-right: 0;
+  float: right;
 }
-.mediaicon li {
-    clear: both!important;
+
+.medication:after {
+  clear: both!;
 }
 
 .fa {
