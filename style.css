@@ -25,19 +25,24 @@
 .back1:after {
   background-image: url(http://iphonekozosseg.hu/wp-content/uploads/2014/12/interstellar-wide-space-film-movie-art-9-wallpaper-1024x1024.jpg);
 }
-.mediaicon {
- padding: 0;
- margin-right: 0;
- padding-top: 100px;
- }
- .mediaicon ul{
-   display: flex; 
-   justify-content: flex-end;
- }
-
- .mediaicon li {
- clear: both!important;
- }
+.social-menu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.social-menu ul li {
+  margin: 20px 0px;
+}
+.container {
+  margin: 0;
+  padding: 10px;
+  background: url("http://moheban-ahlebeit.com/images/Texture-Wallpaper/Texture-Wallpaper-2.jpg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+  position: relative;
+  width: 100%;
+}
 
 .fa {
  padding: 10px;
@@ -102,15 +107,6 @@ body {
   background-color: #000;
   margin: 0;
   padding: 0;
-}
-
-#cover {
-background: url("http://moheban-ahlebeit.com/images/Texture-Wallpaper/Texture-Wallpaper-2.jpg") no-repeat center bottom;
-background-size: cover;
-background-attachment: fixed;
-height: 800px;
-position: relative;
-width: 100%;
 }
 
 .navigation {
