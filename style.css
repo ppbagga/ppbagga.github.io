@@ -46,6 +46,11 @@
   width: 15px;
 }
 
+.mediaicon ul{
+   display: flex; 
+   justify-content: flex-end;
+ }
+
 .fa {
   padding: 10px;
   font-size: 15px;
