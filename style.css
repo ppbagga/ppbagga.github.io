@@ -25,6 +25,11 @@
 .back1:after {
   background-image: url(http://iphonekozosseg.hu/wp-content/uploads/2014/12/interstellar-wide-space-film-movie-art-9-wallpaper-1024x1024.jpg);
 }
+.mediaicon {
+  padding: 0;
+  margin-right: 0;
+  margin-top:0;
+}
 
 .fa {
   padding: 10px;
