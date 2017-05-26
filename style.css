@@ -31,10 +31,12 @@
   margin-right: 0;
   float: right;
 }
-
 .medication:after {
   clear: both!;
 }
+.mediaicon li {
+ clear: both!important;
+ }
 
 .fa {
   padding: 10px;
