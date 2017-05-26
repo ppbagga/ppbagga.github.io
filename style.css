@@ -215,6 +215,7 @@ a {
 }
 .btn:hover {
  background-color: #FFF;
+ color: #000;
 }
 
 .product {
