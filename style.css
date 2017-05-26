@@ -31,12 +31,20 @@
   margin-right: 0;
   float: right;
 }
-.medication:after {
-  clear: both!;
+
+.medication::after {
+  clear: both;
 }
+
 .mediaicon li {
- clear: both!important;
- }
+  list-style: none;
+}
+
+.mediaicon li>a {
+  display: block;
+  height: 15px;
+  width: 15px;
+}
 
 .fa {
   padding: 10px;
