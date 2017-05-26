@@ -32,7 +32,7 @@
   float: right;
 }
 
-.medication::after {
+.mediaicon::after {
   clear: both;
 }
 
