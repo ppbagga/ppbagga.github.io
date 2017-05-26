@@ -26,13 +26,24 @@
   background-image: url(http://iphonekozosseg.hu/wp-content/uploads/2014/12/interstellar-wide-space-film-movie-art-9-wallpaper-1024x1024.jpg);
 }
 .social-menu {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-.social-menu ul li {
-  margin: 20px 0px;
-}
+ padding: 0;
+ margin-right: 0;
+ padding-top: 100px;
+ position: absolute;
+ right: 0;
+ top: 0;
+ }
+ .social-menu ul{
+   display: flex; 
+   flex-direction: column;
+   justify-content: flex-end;
+ }
+
+ .social-menu li {
+   margin-top: 20px;
+ clear: both!important;
+ }
+
 .container {
   margin: 0;
   padding: 10px;
@@ -43,6 +54,7 @@
   position: relative;
   width: 100%;
 }
+
 .fa {
  padding: 10px;
  font-size: 15px;
@@ -148,8 +160,11 @@ box-sizing: border-box;
 margin: 0 auto;
 position: relative;
 text-align: center;
-top: 100px;
 width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 height: 800px;
 }
 
