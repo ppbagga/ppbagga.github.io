@@ -28,21 +28,21 @@
 .social-menu {
   position: absolute;
   right: 10px;
-  top: 30px;
+  top: 10px;
 }
 .social-menu ul li {
   margin: 20px 0px;
 }
-
 .container {
-background: url("http://moheban-ahlebeit.com/images/Texture-Wallpaper/Texture-Wallpaper-2.jpg") no-repeat center bottom;
-background-size: cover;
-background-attachment: fixed;
-height: 800px;
-position: relative;
-width: 100%;
+  margin: 0;
+  padding: 10px;
+  background: url("http://moheban-ahlebeit.com/images/Texture-Wallpaper/Texture-Wallpaper-2.jpg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+  position: relative;
+  width: 100%;
 }
-
 .fa {
  padding: 10px;
  font-size: 15px;
