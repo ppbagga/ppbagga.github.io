@@ -123,6 +123,10 @@ width: 100%;
   width: 100%;
   z-index: 10000;
 }
+.nav:hover{
+ opacity: 0.5;
+ color: #000;
+}
 
 ul {
   padding: 0;
