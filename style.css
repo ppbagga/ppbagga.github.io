@@ -40,8 +40,9 @@
  }
 
  .social-menu li {
-   margin-top: 20px;
- clear: both!important;
+  margin-top: 20px;
+  clear: both!important;
+  z-index: 1000;
  }
 
 .container {
