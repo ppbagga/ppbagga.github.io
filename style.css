@@ -170,6 +170,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 height: 800px;
+top: 250px;
 }
 
 h1 {
