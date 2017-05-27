@@ -133,6 +133,7 @@ body {
 }
 .nav:hover{
  opacity: 0.7;
+ color: black;
 }
 
 ul {
