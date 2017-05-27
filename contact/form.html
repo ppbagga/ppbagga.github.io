@@ -35,39 +35,31 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h3>Contact Form</h3>
+<h3>Contact Me</h3>
+<p> Let me know if you would like to talk about any of my posts. You can also suggest me a topic to write for.</p>    
 
 <div class="container">
-  <form action="https://formspree.io/baggaprashant5@gmail.com" method= "POST">
-      <div class="input-field">
-         <input type="text" id="icon_prefix" name="name" class="validate"> 
-          <label for="icon_prefix" class>
-            "Name"
-            ::after
-          </label>
-       </div>
-      <div class="input-field">
-         <input type="email" id="email" name="_replyto" class="validate"> 
-          <label for="email" >
-            "Email"
-            ::after
-          </label>
-       </div>
-      <div class="input-field">
-         <textarea type="email" id="textarea1" name="message" class="materialize-textarea validate"> 
-          <label for="textarea1" >
-            "Message"
-            ::after
-          </label>
-       
-      <button class="waves-effect waves-light btn-large btn-white" type="submit" value="send">
-          "Submit      "
-          <i class="material-icons right" >send</i>
-         </button>
-          <input type="text" name="gotcha" style="display-none">
-      </form>
-      </div>
-    
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 </body>
 </html>
+
