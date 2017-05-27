@@ -4,6 +4,38 @@
   text-align: center;
   padding-bottom: 50px;
 }
+
+.navalign{
+ padding:0;
+}
+.navigation {
+  background-color: rgba(255,255,255,1);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+.nav:hover{
+ opacity: 0.7;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+#logo {
+  color: #102870;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  padding: 0px 50px;
+}
+
 .forcolor{
   background-color: black;
   margin: 0;
