@@ -85,6 +85,7 @@ p {
   bottom: 0;
   content: '';
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   opacity: 0.5;
   z-index: -1;
