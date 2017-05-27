@@ -1,3 +1,13 @@
+.btn-white {
+    background: $primary-color-text;
+    color: $primary-text-color;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
+    background: $divider-color;
+    color: $primary-text-color;
+}
 #contact {
     background: $primary-color;
     padding: 60px 0;
