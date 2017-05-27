@@ -1,0 +1,31 @@
+#contact {
+    background: $primary-color;
+    padding: 60px 0;
+    img {
+        padding-top: 100px;
+    }
+    h2 {
+        color: $primary-color-text;
+        span {
+            color: $accent-color;
+            font-size: 4rem;
+        }
+    }
+    // Form 
+    .contact-content {
+        padding: 40px;
+    }
+    form {
+        input,
+        textarea {
+            color: $primary-color-text;
+            border-bottom: 1px solid $primary-color-text;
+        }
+        label {
+            color: $primary-color-text;
+        }
+        button {
+            margin: 1.78rem 0 1.424rem 0;
+        }
+    }
+}
