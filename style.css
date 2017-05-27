@@ -43,6 +43,9 @@
   clear: both!important;
   z-index: 1000;
  }
+.iconcolumn{
+  padding-top: 40px;
+}
 
 .container {
   margin: 0;
