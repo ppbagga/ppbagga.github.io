@@ -1,3 +1,6 @@
+input[placeholder], [placeholder], *[placeholder] {
+    color: teal !important;
+}
 element.style {
 }
 materialize.min.css:13
