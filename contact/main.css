@@ -1,5 +1,19 @@
-input[placeholder] , input#icon_prefix.validate {
-    color: teal !important;
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  teal;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:   teal;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:   teal;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:   teal;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    teal;
 }
 element.style {
 }
