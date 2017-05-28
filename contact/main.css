@@ -1,4 +1,4 @@
-input[placeholder], [placeholder], *[placeholder] {
+input[placeholder] , input#icon_prefix.validate {
     color: teal !important;
 }
 element.style {
