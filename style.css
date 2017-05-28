@@ -160,6 +160,7 @@ li {
 }
 
 .cover-content {
+top: 150px;
 box-sizing: border-box;
 margin: 0 auto;
 position: relative;
