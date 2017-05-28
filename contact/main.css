@@ -33,6 +33,7 @@ li {
 }
 .navalign{
  padding:0;
+ margin-top: 10px;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:  teal;
