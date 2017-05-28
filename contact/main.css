@@ -1,4 +1,48 @@
- .footer {
+element.style {
+}
+materialize.min.css:13
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+}
+materialize.min.css:6
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from html
+@media only screen and (min-width: 0)
+materialize.min.css:6
+html {
+    font-size: 14px;
+}
+materialize.min.css:6
+html {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgba(0,0,0,0.87);
+}
+materialize.min.css:6
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+materialize.min.css:6
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+Pseudo ::after element
+materialize.min.css:6
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+.footer {
     background-color: black;
     margin:0;
     padding: 0;
