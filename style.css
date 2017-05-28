@@ -140,6 +140,9 @@ body {
 .nav:hover{
  opacity: 0.7;
 }
+.nav {
+  top: -10px;
+}
 
 li {
   color: #14213D;
