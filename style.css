@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .back9:after {
   background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
 }
