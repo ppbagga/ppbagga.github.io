@@ -57,7 +57,7 @@
 * {
     box-sizing: border-box;
 }
-.charging-on-wheels:after {
+.charging-on-wheels {
   background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
 }
 .back8:after {
