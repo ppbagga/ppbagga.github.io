@@ -62,6 +62,7 @@
     background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
     background-position: center;
     position: absolute;
+    background-attachment: fixed;
     top: 0;
     bottom: 0;
     left: 0;
