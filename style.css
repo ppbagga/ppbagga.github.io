@@ -61,6 +61,18 @@
   position: relative;
   background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
 }
+.charging-on-wheels:before {
+    background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
+
 .back8:after {
   background-image:  url(http://cdn.techgreatest.com/wp-content/uploads/2016/12/maxresdefault-1.jpg);
 }
