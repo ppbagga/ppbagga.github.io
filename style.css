@@ -71,30 +71,144 @@
     content: "";
     opacity: 0.5;
 }
-.back8:after {
-  background-image:  url(http://cdn.techgreatest.com/wp-content/uploads/2016/12/maxresdefault-1.jpg);
+.threed-bioprinting {
+  position: relative;
+  padding: 100px 0px;
 }
-.back7:after {
-  background-image: url(http://images.iphone7pluswallpaper.com/Gallery/71_Apple/iphone-7-plus-wallpaper-apple-black-white-11.jpg);
+.threed-bioprinting:before {
+    background-image: url(http://cdn.techgreatest.com/wp-content/uploads/2016/12/maxresdefault-1.jpg);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
 }
-.back6:after {
-  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/006.jpg?w=2924);
+.apple-on-a-shopping-spree {
+  position: relative;
+  padding: 100px 0px;
 }
-.back5:after {
-  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/004.jpg?w=2924);
+.apple-on-a-shopping-spree:before {
+    background-image: url(http://images.iphone7pluswallpaper.com/Gallery/71_Apple/iphone-7-plus-wallpaper-apple-black-white-11.jpg);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
 }
-.back4:after {
-  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/aa.jpg?w=2924);
+.nanoscale-dream-team {
+  position: relative;
+  padding: 100px 0px;
 }
-.back3:after {
-  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/0012.jpg?w=2924);
+.nanoscale-dream-team:before {
+    background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/006.jpg?w=2924);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
 }
-.back2:after {
-  background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/003.jpg?w=2924);
+.implants-without-batteries {
+  position: relative;
+  padding: 100px 0px;
 }
-.back1:after {
-  background-image: url(http://iphonekozosseg.hu/wp-content/uploads/2014/12/interstellar-wide-space-film-movie-art-9-wallpaper-1024x1024.jpg);
+.implants-without-batteries:before {
+    background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/004.jpg?w=2924);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
 }
+.why-we-love-beat-drop {
+  position: relative;
+  padding: 100px 0px;
+}
+.why-we-love-beat-drop:before {
+    background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/aa.jpg?w=2924);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
+}
+.googles-project-treble {
+  position: relative;
+  padding: 100px 0px;
+}
+.googles-project-treble:before {
+    background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/0012.jpg?w=2924);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
+}
+.my-first-job {
+  position: relative;
+  padding: 100px 0px;
+}
+.my-first-job:before {
+    background-image: url(https://beingatechnocrat.files.wordpress.com/2017/05/003.jpg?w=2924);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
+}
+.heres-an-intro {
+  position: relative;
+  padding: 100px 0px;
+}
+.heres-an-intro:before {
+    background-image: url(http://iphonekozosseg.hu/wp-content/uploads/2014/12/interstellar-wide-space-film-movie-art-9-wallpaper-1024x1024.jpg);
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.5;
+}
+
+
 .social-menu {
  margin-right: 0;
  position: absolute;
