@@ -56,7 +56,7 @@
 }
 .charging-on-wheels {
   position: relative;
-  padding: 100px 15px;
+  padding: 100px 0px;
 }
 .charging-on-wheels:before {
     background-image: url(https://bensmann.no/wp-content/uploads/2017/01/New-Blue-Profile.jpg);
