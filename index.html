@@ -353,11 +353,25 @@ TECH TALKS
   <input id = "Name">
   Enter Name
   </input>
-  <input id="submt" type ="button"> Submit </button>
+  <input id = "inner">
+  Enter iNNER
+  </input>  <input id="submt" type ="button"> Submit </button>
   <script>
   $('#submt').on('click', function(){
-   var ff =  document.createElement('h3');
-    ff.innerHTML = $('#Name').val();
+    var Name = $('#Name').val();
+    var inner = $('#inner').val();
+    ff.innerHTML = '<section class="my-first-job">\
+    <article class=" container">\
+    <div class="post background w3-display-container w3-text-white">\
+      <div class="product w3-display-middle">\
+        <h3 class="text-center w3-animate-top">'+ Name + '</h3>\
+         <hr class="w3-border-white" style="margin:auto;width:40%">\
+        <p class= "w3-large w3-center">' +  inner +'</p>\
+        <a href="/posts/p2FirstJob.html" class="btn">Read More</a>
+      </div>
+    </div>
+    </article>
+    </section>';
     $('#body').prepend(ff);
   });
   </script>
