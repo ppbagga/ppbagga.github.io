@@ -226,7 +226,7 @@ h3{
  .h3 {font-size: 30px;}
 }
 </style>
-<body>
+<body id="body">
 
 
 
@@ -349,7 +349,18 @@ TECH TALKS
     </div>
     </article>
     </section>
-    
+
+  <input id = "Name">
+  Enter Name
+  </input>
+  <input id="submt" type ="button"> Submit </button>
+  <script>
+  $('#submt').on('click', function(){
+   var ff =  document.createElement('h3');
+    ff.innerHTML = $('#Name').val();
+    $('#body').append(ff);
+  });
+  </script>
     
 
 
